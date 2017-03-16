@@ -69,11 +69,12 @@ namespace Task
         {
             var FirstObj = ObjectList.ElementAt(counter);
             counter -= 1;
+
             MatView.Text = FirstObj.Materie;
 
             OraView.Text = FirstObj.Ora;
 
-            if (counter <= ObjectList.Count)
+            if (counter < ObjectList.Count)
                 counter = 0;
 
         }
@@ -83,12 +84,12 @@ namespace Task
 
             var FirstObj = ObjectList.ElementAt(counter);
             counter += 1;
+
+            if (counter > ObjectList.Count)
+                counter = ObjectList.Count;
+
             MatView.Text = FirstObj.Materie;
-
             OraView.Text = FirstObj.Ora;
-
-            if (counter >= ObjectList.Count)
-                counter = 0;
 
         }
     }
