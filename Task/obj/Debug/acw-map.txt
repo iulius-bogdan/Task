@@ -1,0 +1,12 @@
+Task.About, Task;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.About
+Task.About, Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.About
+Task.About;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.About
+task.About;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.About
+Task.AfisareOrar, Task;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.AfisareOrar
+Task.AfisareOrar, Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.AfisareOrar
+Task.AfisareOrar;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.AfisareOrar
+task.AfisareOrar;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.AfisareOrar
+Task.MainActivity, Task;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.MainActivity
+Task.MainActivity, Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.MainActivity
+Task.MainActivity;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.MainActivity
+task.MainActivity;md5ed0c54a45b4f4b1ec92da0fe2672ec6b.MainActivity
