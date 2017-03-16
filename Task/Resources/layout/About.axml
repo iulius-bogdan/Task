@@ -15,7 +15,6 @@
         android:layout_marginTop="10.0dp"
         android:textSize="34sp"
         android:id="@+id/textView1" />
-    
     <TextView
         android:text="Name:"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -25,37 +24,33 @@
         android:layout_marginTop="35dp"
         android:textSize="20dp"
         android:id="@+id/textView1" />
-
-  <TextView
-    android:text="Barbulescu Iulius"
-    android:textAppearance="?android:attr/textAppearanceMedium"
-    android:layout_marginLeft="220.0dp"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="5dp"
-    android:textSize="20dp"
-    android:id="@+id/textView1" />
-  <TextView
-     android:text="Grupa:"
-     android:textAppearance="?android:attr/textAppearanceMedium"
-     android:layout_marginLeft="220.0dp"
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:layout_marginTop="35dp"
-     android:textSize="20dp"
-     android:id="@+id/textView1" />
-
-  <TextView
-    android:text="312 AC"
-    android:textAppearance="?android:attr/textAppearanceMedium"
-    android:layout_marginLeft="220.0dp"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="5dp"
-    android:textSize="20dp"
-    android:id="@+id/textView1" />
-  
-  
+    <TextView
+        android:text="Barbulescu Iulius"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="220.0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="Grupa:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="220.0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="312 AC"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="220.0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:id="@+id/textView1" />
     <ImageView
         android:src="@drawable/poza"
         android:gravity="left"

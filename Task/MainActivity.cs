@@ -20,6 +20,7 @@ namespace Task
         {
             base.OnCreate(bundle);
 
+
             SimpleStorage.EditGroup = (string groupName) =>
             {
                 return new DroidSimpleStorage(groupName, this);
@@ -71,7 +72,7 @@ namespace Task
 
 
 
-            private void Mybutton2_Click(object sender, System.EventArgs e)
+        private void Mybutton2_Click(object sender, System.EventArgs e)
         {
             var Obj = new Data2();
             Obj.Ora = Ora;
@@ -82,7 +83,7 @@ namespace Task
             var storage = SimpleStorage.EditGroup("DB");
 
             var List = storage.Get(Zi);
-            if (List != null  && List != "")
+            if (List != null && List != "")
             {
                 var ObjectList = JsonConvert.DeserializeObject<List<Data2>>(List);
 
@@ -108,10 +109,14 @@ namespace Task
 
             var storage = SimpleStorage.EditGroup("DB");
             storage.Put("Monday", "");
+            storage.Put("Tuesday", "");
+            storage.Put("Wednesday", "");
+            storage.Put("Thursday", "");
+            storage.Put("Friday", "");
 
 
         }
-       
+
         private void Mybutton1_Click(object sender, System.EventArgs e)
         {
             var activity2 = new Intent(this, typeof(About));
@@ -126,8 +131,6 @@ namespace Task
 
             StartActivity(activity2);
 
-
-         
         }
     }
 }

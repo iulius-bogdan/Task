@@ -89,32 +89,35 @@ namespace Task
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06000b
-			public const int button = 2131099659;
-			
 			// aapt resource value: 0x7f06000c
-			public const int button1 = 2131099660;
+			public const int button = 2131099660;
 			
-			// aapt resource value: 0x7f060009
-			public const int button2 = 2131099657;
+			// aapt resource value: 0x7f06000d
+			public const int button1 = 2131099661;
 			
 			// aapt resource value: 0x7f06000a
-			public const int button3 = 2131099658;
+			public const int button2 = 2131099658;
+			
+			// aapt resource value: 0x7f06000b
+			public const int button3 = 2131099659;
 			
 			// aapt resource value: 0x7f060005
 			public const int button5 = 2131099653;
 			
+			// aapt resource value: 0x7f060006
+			public const int button6 = 2131099654;
+			
 			// aapt resource value: 0x7f060001
 			public const int imageView1 = 2131099649;
 			
-			// aapt resource value: 0x7f060006
-			public const int spinner = 2131099654;
-			
 			// aapt resource value: 0x7f060007
-			public const int spinner1 = 2131099655;
+			public const int spinner = 2131099655;
 			
 			// aapt resource value: 0x7f060008
-			public const int spinner2 = 2131099656;
+			public const int spinner1 = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int spinner2 = 2131099657;
 			
 			// aapt resource value: 0x7f060000
 			public const int textView1 = 2131099648;

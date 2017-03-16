@@ -18,7 +18,7 @@ namespace Task
     [Activity(Label = "AfisareOrar")]
     public class AfisareOrar : Activity
     {
-        //ggg
+  
 
         List<Data2> ObjectList= new List<Data2>();
 
@@ -57,7 +57,24 @@ namespace Task
 
             button.Click += Button_Click;
 
+            var button1 = FindViewById<Button>(Resource.Id.button6);
 
+            button1.Click += Button1_Click;      
+
+
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            var FirstObj = ObjectList.ElementAt(counter);
+            counter -= 1;
+            MatView.Text = FirstObj.Materie;
+
+            OraView.Text = FirstObj.Ora;
+
+            if (counter <= ObjectList.Count)
+                counter = 0;
 
         }
 
